@@ -10,7 +10,7 @@ def insertion_sort(arr):
             j-=1
         arr[j+1]=key # Move to the previous element
                 
-    
+#Drivers code to test 
 arr=list(map(int,input().split()))
 insertion_sort(arr)
 print(arr)
