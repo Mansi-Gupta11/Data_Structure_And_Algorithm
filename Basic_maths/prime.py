@@ -1,5 +1,5 @@
 n=20
-
+# n=int(input()) -- for users input.
 def prime(n):
     if n<=1:
         return False
